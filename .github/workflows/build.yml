@@ -21,7 +21,7 @@ jobs:
         run: make
           
       - name: Upload artifact
-        uses: wangyucode/sftp-upload-action@v1.4.8
+        uses: actions/upload-artifact@v3
         with:
           name: built
           retention-days: 5
